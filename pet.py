@@ -12,13 +12,13 @@ def toggle_eyes():
 def blink():
     toggle_eyes()
     root.after(250, toggle_eyes)
-    root.after(3000, blink)
+    root.after(2000, blink)
 root=Tk()
 
 c=Canvas(root, width=400, height=400)
-c.configure(bg='dark blue',highlightthickness=0)
+c.configure(bg='pink',highlightthickness=0)
 
-c.body_color = 'SkyBlue1'
+c.body_color = 'gold'
 body = c.create_oval(35, 20, 365, 350, outline=c.body_color, fill=c.body_color)
 ear_left = c.create_polygon(75, 80, 75, 10, 165, 70, outline=c.body_color, fill=c.body_color)
 ear_right = c.create_polygon(255, 45, 325, 10, 320, 70, outline=c.body_color, \
