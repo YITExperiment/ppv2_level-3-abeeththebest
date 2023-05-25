@@ -1,3 +1,3 @@
->>> age=14
->>> print(age)
-14
+weight=30
+print(weight)
+30
